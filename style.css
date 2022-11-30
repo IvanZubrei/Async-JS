@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  color: rgb(73, 73, 73);
+  background-color: #f0eded;
+  
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+h1 {
+  margin: 10px 0 10px 25px;
+}
+
+.info__countries {
+font-size: 16px;
+margin: 0 0 10px 10px;
+}
+
+.countries__input {
+  margin: 0 0 10px 10px;
+  padding: 3px;
+}
+
+button {
+  margin: 0 0 0 10px;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.7rem;
+  color: white;
+  background-color: rgb(85, 201, 31);
+  cursor: pointer;
+}
+
+button:hover {
+  border: solid 1px rgb(44, 42, 42);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+
+
+.errorCountry {
+  display: none;
+  padding: 5px;
+  border: solid 1px red;
+  border-radius: 10px;
+}
+
+.countryErrorInfo {
+  margin-bottom: 3px;
+  font-size: 18px;
+}
+
+.errorInfo {
+  width: 50px;
+}
+
+
+.country {
+  
+  background-color: #fff;
+  box-shadow: 0 2rem 4rem 1rem rgba(0, 0, 0, 0.1);
+  font-size: 1.6rem;
+  width: 35rem;
+  border-radius: 0.8rem;
+  margin: 0 4rem;  
+}
+
+.country__img {
+  width: 35rem;
+  height: 17rem;
+  object-fit: cover;
+  background-color: rgb(230, 230, 230);
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+
+.country__data {
+  padding: 2.6rem 3.8rem 3rem 3.8rem;
+}
+
+.country__name {
+  font-size: 2.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.country__region {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+  color: rgb(133, 133, 133);
+}
+
+.country__row:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+
+.modalOpen {
+  display: block;
+}
+
+
